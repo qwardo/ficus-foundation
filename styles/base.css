@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arkhip";
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header, .footer {
+    background-color: rgb(10, 10, 20);
+}
+
+.main, .menu-button {
+    flex-grow: 1;
+    background-color: rgb(25, 25, 40);
+}
+
+.menu {
+    margin-top: 35px;
+}
+
+.header-icon {
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.header-text {
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+}
+
+.menu-button {
+    margin: 0px 40px 0px 40px;
+    padding: 12px;
+    border-width: 0px;
+    border-radius: 15px 15px 0px 0px;
+    font-size: 22px;
+    transition: 80ms;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    text-shadow:
+        0 0 10px rgb(255, 255, 255),
+        0 0 20px rgb(255, 255, 255);
+}
+
+.menu-button:active {
+    text-shadow:
+        0 0 10px rgb(255, 255, 255),
+        0 0 20px rgb(255, 255, 255),
+        0 0 30px rgb(255, 255, 255);
+}
+
+.current-menu-button {
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+@font-face {
+    src: url(../fonts/base.ttf);
+    font-family: "Arkhip";
+}
