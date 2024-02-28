@@ -29,13 +29,27 @@ html, body {
 }
 
 .header-icon {
-    margin-right: 15px;
+    margin: 15px;
     vertical-align: middle;
 }
 
 .header-text {
     font-size: 34px;
     color: rgb(255, 255, 255);
+}
+
+.main-text {
+    margin: 20px auto;
+    max-width: 1080px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.footer-text {
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(80, 0, 255);
 }
 
 .menu-button {
