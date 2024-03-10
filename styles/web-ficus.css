@@ -1,15 +1,12 @@
 .web-ficus-p {
-    display: inline-block;
+    display: inline-block; 
     padding: 10px;
-    border: 1px solid;
-    border-image: linear-gradient(to right, #ff0000, #00ff00);
-    border-image-slice: 1;
     max-width: 500px;
     max-height: 100px;
     margin-right: auto;
     display: flex;
     justify-content: flex-end;
-    color: white;
+    color: white; 
   }
 
 .container {
@@ -20,3 +17,20 @@
     flex: 1;
     margin: 0 10px;
   }
+.border-line{
+  display: flex;
+  border: 2px solid white;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width : 768px) {
+  .border-line {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .paragraph {
+    padding: 0;
+  }
+}
