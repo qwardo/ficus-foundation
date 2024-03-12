@@ -1,3 +1,8 @@
+@font-face {
+    src: url(../fonts/base.ttf);
+    font-family: "Arkhip";
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -19,18 +24,16 @@ html, body {
     background-color: rgb(10, 10, 20);
 }
 
-.main, .menu-button {
+.main {
     flex-grow: 1;
+}
+
+.main, .menu-button {
     background-color: rgb(25, 25, 40);
 }
 
 .menu {
     margin-top: 35px;
-}
-
-.header-icon {
-    margin: 15px;
-    vertical-align: middle;
 }
 
 .header-text {
@@ -80,7 +83,7 @@ html, body {
     box-shadow: 0 0 20px rgb(255, 255, 255);
 }
 
-@font-face {
-    src: url(../fonts/base.ttf);
-    font-family: "Arkhip";
+.icon {
+    margin: 15px;
+    vertical-align: middle;
 }
